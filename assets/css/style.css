@@ -379,45 +379,6 @@ footer a {
   border-radius: 8px;
 }
 
-.footer__theme1 {
-  color: #12bdff;
-  background-color: transparent;
-  border: 1px solid #12bdff;
-  transition: all 0.5s ease 0s;
-}
-
-.footer__theme1:hover {
-  background-color: #12bdff;
-  color: #fff;
-  transition: all 0.5s ease 0s;
-}
-
-.footer__theme2 {
-  color: #ff5555;
-  background-color: transparent;
-  border: 1px solid #ff5555;
-  transition: all 0.5s ease 0s;
-}
-
-.footer__theme2:hover {
-  background-color: #ff5555;
-  color: #fff;
-  transition: all 0.5s ease 0s;
-}
-
-.footer__theme3 {
-  color: #ff29e4;
-  background-color: transparent;
-  border: 1px solid #ff29e4;
-  transition: all 0.5s ease 0s;
-}
-
-.footer__theme3:hover {
-  background-color: #ff29e4;
-  color: #fff;
-  transition: all 0.5s ease 0s;
-}
-
 .active-theme {
   background-color: #ff5555;
   color: white;
