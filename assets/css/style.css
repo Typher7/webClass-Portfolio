@@ -151,6 +151,7 @@ ul.social-icons {
 .btn.btn-primary:hover {
   background-color: var(--primary-hover);
   transition: all 0.3s ease 0s;
+  color: white;
 }
 
 .btn-dark-outlined {
@@ -338,6 +339,7 @@ textarea:focus {
   padding: 10px 44px;
   background: #171515;
   font-size: 14px;
+  color: white;
 }
 
 .contact__github button > a {
@@ -350,7 +352,8 @@ textarea:focus {
 }
 
 .contact__github button:hover {
-  background-color: #030303;
+  background-color: #fdfdfd;
+  color: black;
 }
 
 /* Footer */

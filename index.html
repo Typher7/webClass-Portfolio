@@ -13,11 +13,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <link
-      rel="stylesheet"
-      id="themeStylesheet"
-      href="./assets/css/style.css"
-    />
+    <link rel="stylesheet" id="themeStylesheet" href="./assets/css/style.css" />
   </head>
 
   <body>
@@ -87,11 +83,10 @@
             >
               Hire me
             </button>
-            <button class="btn btn-dark-outlined">
-              <a href="./assets/my resume/Enoch_Atuahene_Resume.pdf" download
-                >My Resume</a
-              >
-            </button>
+
+            <a href="./assets/MyResume/Enoch_Atuahene_Resume.pdf">
+              <button class="btn btn-dark-outlined">My Resume</button>
+            </a>
           </div>
         </div>
       </section>
@@ -99,7 +94,7 @@
       <!-- About Section  -->
       <section class="about-section" id="about">
         <div class="about-img">
-          <img src="assets/img/profile.jpeg" alt="Sudharsan-portfolio" />
+          <img src="assets/img/profile.jpeg" alt="Enoch-portfolio" />
         </div>
 
         <div class="about-content">
@@ -117,12 +112,12 @@
             projects, some of which you can explore right here on my portfolio.
           </p>
 
-          <button class="btn btn-primary">
-            <a href="https://github.com/danielace1" target="_blank">
+          <a href="https://github.com/danielace1" target="_blank">
+            <button class="btn btn-primary">
               Github Portfolio
               <i class="fa-solid fa-arrow-right-to-bracket"></i>
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </section>
 
@@ -137,38 +132,42 @@
             <div class="projects-card-box__desc">
               <h4>Business Website</h4>
               <p>
-                A Business website crafted using HTML, CSS, Bootstrap and
-                JavaScript, showcasing a modern design and interactive elements,
-                serving as a template for diverse web projects.
+                A business website built with React and Tailwind CSS, featuring
+                a modern design and elements, serving as a versatile template
+                for various financial web projects.
               </p>
             </div>
             <div class="projects-card-box__buttons">
-              <button class="btn btn-dark-outlined">
-                <a href="#" target="_blank"
-                  >View <i class="fa-solid fa-external-link"></i
-                ></a>
-              </button>
+              <a href="https://typher7.github.io/finance-web/" target="_blank">
+                <button class="btn btn-dark-outlined">
+                  View <i class="fa-solid fa-external-link"></i>
+                </button>
+              </a>
             </div>
           </div>
 
           <div class="projects-card-box">
             <div class="projects-card-box__icons">
-              <i class="fa-solid fa-music"></i>
+              <i class="fa-solid fa-cloud"></i>
             </div>
             <div class="projects-card-box__desc">
-              <h4>Music Player</h4>
+              <h4>Weather App</h4>
               <p>
-                A music player built with HTML, CSS, and JavaScript, offering an
-                intuitive interface for playlist management and audio playback,
-                optimized for both desktop and mobile experiences.
+                Our Weather App, built with React and Tailwind CSS, provides a
+                straightforward interface for checking real-time weather updates
+                in any city worldwide. Users can easily input a city name to
+                access current conditions, including temperature, humidity, and
+                wind speed, all fetched via a reliable weather API.
               </p>
             </div>
             <div class="projects-card-box__buttons">
-              <button class="btn btn-dark-outlined">
-                <a href="#" target="_blank"
-                  >View <i class="fa-solid fa-external-link"></i
-                ></a>
-              </button>
+              <a
+                href="https://typher7.github.io/weather-app-react/"
+                target="_blank"
+                ><button class="btn btn-dark-outlined">
+                  View <i class="fa-solid fa-external-link"></i>
+                </button>
+              </a>
             </div>
           </div>
 
@@ -177,19 +176,19 @@
               <i class="fa-solid fa-id-card"></i>
             </div>
             <div class="projects-card-box__desc">
-              <h4>Sign-in Page</h4>
+              <h4>Personal Portfolio</h4>
               <p>
-                A sleek sign-in page designed using HTML, CSS, and JavaScript,
-                ensuring user-friendly interactions and a secure authentication
-                process.
+                A sleek portfolio website built with the React JavaScript
+                library, offering user-friendly interactions and showcasing my
+                work, all hosted with a personalized domain name.
               </p>
             </div>
             <div class="projects-card-box__buttons">
-              <button class="btn btn-dark-outlined">
-                <a href="#" target="_blank"
-                  >View <i class="fa-solid fa-external-link"></i
-                ></a>
-              </button>
+              <a href="https://eatuahene.com" target="_blank">
+                <button class="btn btn-dark-outlined">
+                  View <i class="fa-solid fa-external-link"></i>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -198,12 +197,12 @@
       <!-- Contact Section -->
       <section class="contact-section" id="contact">
         <h2>Contact <span>ME!</span></h2>
-        <form action="">
+        <form>
           <div>
-            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="text" name="name" placeholder="Full Name" required>
           </div>
           <div>
-            <input type="email" name="email" placeholder="Email" required />
+            <input type="email" name="email" placeholder="Email" required>
           </div>
           <div>
             <textarea
@@ -217,11 +216,11 @@
           </div>
         </form>
         <div class="contact__github">
-          <button class="btn">
-            <a href="https://github.com/Typher7" target="_blank">
+          <a href="https://github.com/Typher7" target="_blank">
+            <button class="btn">
               <i class="fa-brands fa-github"></i> Github
-            </a>
-          </button>
+            </button>
+          </a>
         </div>
       </section>
     </main>
@@ -233,6 +232,5 @@
         - All Rights Reserved.
       </p>
     </footer>
-
   </body>
 </html>
