@@ -2,7 +2,7 @@
 
 Simple webpage built using pure HTML and CSS.
 
-### Live Link:
+### Live Link: https://typher7.github.io/webClass-Portfolio/
 
 
 ##### Connect with me on:
